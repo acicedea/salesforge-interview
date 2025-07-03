@@ -22,7 +22,7 @@ const StepsForm: React.FC<StepsFormProps> = ({
   <div className="w-full mb-12">
     <div className="flex items-center justify-between mb-1">
       <h2 className="text-xl font-semibold">Sequence steps</h2>
-      <HeaderWithNav onPrev={onPrev} onNext={onNext} />
+      <HeaderWithNav onPrev={onPrev} onNext={onNext} isPrevDisabled={true} />
     </div>
     <p className="text-gray-500 mb-6">Create steps for your sequence</p>
 

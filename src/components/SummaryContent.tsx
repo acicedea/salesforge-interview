@@ -54,7 +54,7 @@ const SummaryContent: React.FC<StepsFormProps> = ({ onPrev, onNext }) => {
     <div>
       <div className="flex items-center justify-between mb-1">
         <h2 className="text-xl font-semibold mb-1">Sequence Summary</h2>
-        <HeaderWithNav onPrev={onPrev} onNext={onNext} />
+        <HeaderWithNav onPrev={onPrev} onNext={onNext} isNextDisabled={true} />
       </div>
       <p className="text-gray-500 mb-6">Summary of your sequence</p>
       <div className="border-b mb-4"></div>
